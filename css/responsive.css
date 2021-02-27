@@ -1,0 +1,187 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .product-section .list-product .product-wrapper .product-img img {
+    height: 450px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .homebanner .panel-search h1 {
+    font-size: 80px;
+  }
+  .homebanner .logo-wrapper h1 {
+    font-size: 100px;
+  }
+  header .navbar-nav li a {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container-fluid {
+    padding: 0 50px;
+  }
+  header {
+    padding: 10px 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .homebanner .col-logo {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .homebanner .col-search {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .homebanner .logo-wrapper img {
+    max-width: 300px;
+    margin-bottom: 50px;
+  }
+  .homebanner .container-fluid {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .homebanner .panel-search h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  .homebanner .panel-search .search-wrapper .inner-wrapper {
+    width: 100%;
+  }
+  header .navbar-nav li:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  header .navbar-nav li {
+    margin-top: 20px;
+  }
+  .product-section .list-product .product-wrapper .product-description .inner-wrapper h1 {
+    padding-bottom: 20px;
+  }
+  footer .common-col:not(:last-child) {
+    border-right: none;
+    margin-bottom: 30px;
+  }
+  footer .common-col {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  footer .footer-wrapper ul li a {
+    font-size: 25px;
+  }
+  footer .footer-wrapper h1 {
+    font-size: 30px;
+  }
+  footer .footer-wrapper {
+    text-align: left !important;
+  }
+  footer .footer-note p {
+    font-size: 16px;
+  }
+  footer .footer-note {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .homebanner .panel-search h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .homebanner .container-fluid {
+    padding-top: 150px;
+  }
+  .homebanner .logo-wrapper h1 {
+    font-size: 80px;
+  }
+  .product-section .list-product .product-wrapper .product-img img {
+    height: 300px;
+  }
+  .product-section .list-product .product-wrapper .product-description .inner-wrapper .price {
+    font-size: 25px;
+  }
+  .product-section .list-product .product-wrapper .product-description .inner-wrapper h1 {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .product-section .list-product .product-wrapper .product-description .inner-wrapper a {
+    font-size: 18px;
+  }
+  .product-section .list-product.owl-carousel .owl-dots .owl-dot {
+    height: 15px;
+    width: 15px;
+  }
+  .product-section .list-product .product-wrapper .product-description {
+    padding: 20px 50px;
+  }
+  .latest-products .row-products .product-wrapper .product-image img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 575px) {
+  .homebanner .panel-search h1 {
+    font-size: 40px;
+  }
+  .container-fluid {
+    padding: 0 25px;
+  }
+  .homebanner .panel-search .search-wrapper .button-submit-search {
+    width: auto;
+  }
+  footer .footer-wrapper p {
+    font-size: 18px;
+  }
+  footer .footer-wrapper ul li a {
+    font-size: 18px;
+  }
+  footer .footer-wrapper h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .latest-products .row-products .product-wrapper .product-details h1 {
+    font-size: 20px;
+  }
+  .common-header h1 {
+    font-size: 30px;
+  }
+  .common-header .divider {
+    height: 20px;
+    width: 150px;
+  }
+  .common-header {
+    margin-bottom: 40px;
+  }
+  footer .common-col {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .homebanner .logo-wrapper h1 {
+    font-size: 60px;
+  }
+  .homebanner .logo-wrapper img {
+    max-width: 250px;
+  }
+  .homebanner .panel-search h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .homebanner .logo-wrapper h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
